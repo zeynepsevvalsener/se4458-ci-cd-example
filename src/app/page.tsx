@@ -1,5 +1,3 @@
-import Image from "next/image";
-
 // Title variable for CI/CD demo - change this to see updates
 const title = "Modern Banking for a Digital World";
 
@@ -34,7 +32,7 @@ export default function Home() {
             {title}
           </h1>
           <p className="text-xl text-gray-600 mb-8">
-            Experience seamless financial management with our innovative banking solutions. Secure, fast, and designed for today's digital lifestyle.
+            Experience seamless financial management with our innovative banking solutions. Secure, fast, and designed for today&apos;s digital lifestyle.
           </p>
           <div className="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4">
             <button className="bg-blue-600 text-white px-8 py-3 rounded-full hover:bg-blue-700 transition-colors shadow-md text-lg font-medium">
@@ -125,7 +123,7 @@ export default function Home() {
               </div>
               <div className="md:w-2/3 md:pl-12">
                 <div className="text-gray-600 text-lg italic mb-6">
-                  "BankSync has transformed how I manage my finances. The interface is intuitive, transfers are lightning-fast, and the financial insights have helped me save more than I ever could before."
+                  &quot;BankSync has transformed how I manage my finances. The interface is intuitive, transfers are lightning-fast, and the financial insights have helped me save more than I ever could before.&quot;
                 </div>
                 <div className="flex items-center">
                   <div className="h-12 w-12 rounded-full bg-gray-200 flex items-center justify-center mr-4">
