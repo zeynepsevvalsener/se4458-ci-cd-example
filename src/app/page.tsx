@@ -1,5 +1,5 @@
 // Title variable for CI/CD demo - change this to see updates
-const title = "Modern Banking for a Digital World";
+const title = "Modern Banking for a Digital World for humans";
 
 export default function Home() {
   return (
